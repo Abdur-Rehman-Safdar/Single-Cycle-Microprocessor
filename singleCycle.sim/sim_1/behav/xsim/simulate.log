@@ -1,0 +1,18 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+
+==========================================================================================
+STARTING RISC-V SINGLE CYCLE VERIFICATION (WITH EXACT REG_FILE MATCH)
+==========================================================================================
+Time	   PC		Instruction	 rd	  rs1	   rs2	Status/Command
+------------------------------------------------------------------------------------------
+[PROVED] LW Equation: x6 successfully loaded with data aabbccdd | SUCCESS
+[PROVED] SW Equation: Data aabbccdd safely stored into Memory Address 24 | SUCCESS
+[PROVED] ADD Equation: x4 = x6 + x6 (557799ba) | SUCCESS
+[PROVED] SUB Equation: x5 = x4 - x6 (aabbccdd) | SUCCESS
+[INFO] Checking BEQ execution... Current PC status: 00000000
+[WARNING] JAL Link Register verification skipped or mismatch. current x1 = 00000000
+==========================================================================================
+RISC-V SINGLE CYCLE VERIFICATION COMPLETED.
+==========================================================================================
+$finish called at time : 87 ns : File "E:/Chip Design Giki/Computer Architecture/033_singleCycle/singleCycle/singleCycle.srcs/sim_1/new/top_module_tb.v" Line 98
